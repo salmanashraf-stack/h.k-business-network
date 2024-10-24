@@ -6,6 +6,7 @@ import Image from 'next/image'
 import EmailBox from '../EmailBox/EmailBox'
 import { HeroData } from '@/utils/data'
 import { motion } from "framer-motion"
+import hero from "../../../public/hero/hero-arrow.png"
 
 const Hero = () => {
     const variants = (delay) => ({
@@ -39,7 +40,7 @@ const Hero = () => {
   return (
     <div className='h-wrapper'>
         <div className="container">
-            <img src="hero/hero-arrow.png" alt="arrow" className='h-arrow'/>
+            <Image src={hero} width={500} height={500} alt="arrow" className='h-arrow'/>
             <div className="h-container">
                 {/* left side */}
                 <div className="h-left">

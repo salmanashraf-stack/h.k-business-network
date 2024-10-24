@@ -27,7 +27,7 @@ const OurDiff = () => {
                     initial="offscreen"
                     whileInView={"onscreen"}
                     variants={desVariants}
-                    className='text'>H.K Business Network is a non-political, social organization committed to connecting Pakistan's most accomplished individuals. Our mission is to strengthen ties among government officials, business leaders, media personalities, educators, and other distinguished professionals to foster national development through collaboration. We aim to be a premier platform for dialogue and mentorship, empowering members to share knowledge and elevate Pakistan&apos;s future.
+                    className='text'>H.K Business Network is a non-political, social organization committed to connecting Pakistan&apos;s most accomplished individuals. Our mission is to strengthen ties among government officials, business leaders, media personalities, educators, and other distinguished professionals to foster national development through collaboration. We aim to be a premier platform for dialogue and mentorship, empowering members to share knowledge and elevate Pakistan&apos;s future.
                     </motion.span>
                 </div>
 
